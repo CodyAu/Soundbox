@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_playlists">
+
+    <item
+        android:id="@+id/navigation_playlists"
+        android:name="ca.umanitoba.cs.code.comp3350.winter2020.Soundbox.presentation.fragments.PlayingFragment"
+        android:label="@string/title_playlists"
+        tools:layout="@layout/activity_main" />
+
+    <item
+        android:id="@+id/navigation_playing"
+        android:name="ca.umanitoba.cs.code.comp3350.winter2020.Soundbox.presentation.fragments.PlayingFragment"
+        android:label="@string/title_playing"
+        tools:layout="@layout/activity_playing" />
+
+    <item
+        android:id="@+id/navigation_library"
+        android:name="ca.umanitoba.cs.code.comp3350.winter2020.Soundbox.presentation.fragments.LibraryFragment"
+        android:label="@string/title_library"
+        tools:layout="@layout/activity_search" />
+
+    <item
+        android:id="@+id/navigation_discover"
+        android:name="ca.umanitoba.cs.code.comp3350.winter2020.Soundbox.presentation.fragments.DiscoverFragment"
+        android:label="@string/title_discover"
+        tools:layout="@layout/activity_discover" />
+
+</navigation>

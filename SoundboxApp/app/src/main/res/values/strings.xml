@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Soundbox</string>
+    <string name="singer">singer</string>
+    <string name="song">song</string>
+    <string name="todo">TODO</string>
+    <string name="artist">artist</string>
+    <string name="name">Name</string>
+    <string name="clear_all">Clear All</string>
+    <string name="play_pause">Play/Pause</string>
+    <string name="title_playlists">Playlists</string>
+    <string name="title_playing">Playing</string>
+    <string name="title_library">Library</string>
+    <string name="title_discover">Discover</string>
+    <string name="title_analytics">Analytics</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_search">Search</string>
+    <string name="action_sort">Sort</string>
+    <string name="action_remove">Remove</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_create">Create</string>
+    <string name="action_details">Details</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="action_add_queue">Add to queue</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="backdrop_title">Your Playlists</string>
+    <string name="backdrop_subtitle">Create and customize your songs with Soundbox 🎵</string>
+    <string name="playlist_add_title">Give your playlist a name.</string>
+    <string name="playlist_add_query_hint">Playlist name</string>
+    <string name="playlist_edit_title">Edit your playlist\'s a name.</string>
+    <string name="playlist_edit_query_hint">New playlist name</string>
+    <string name="empty_playlists_title">No playlists</string>
+    <string name="empty_playlists">Start creating a custom playlists to see your playlists here.</string>
+    <string name="empty_playback_queue_title">No queued songs</string>
+    <string name="empty_playback_queue">Add songs to see your custom playback queue here.</string>
+    <string name="empty_tracklist_title">No songs.</string>
+    <string name="empty_tracklist">Add songs to this tracklist to see them here.</string>
+    <string name="shuffle_empty">Playback Queue Empty!</string>
+    <string name="shuffle_success">Playback Queue Shuffled!</string>
+    <string name="clear_queue">Clear queue</string>
+    <string name="jump_playing">Jump playing</string>
+    <string name="select_audio">Select Song</string>
+    <string name="search_audio">Search for songs!</string>
+    <string name="search_playlists">Search for playlists!</string>
+    <string name="likes">Likes</string>
+    <string name="dislikes">Dislikes</string>
+
+    <string name="action_sort_default">Sort by date added</string>
+    <string name="action_sort_name">Sort by name</string>
+    <string name="action_sort_artist">Sort by artist</string>
+    <string name="action_sort_album">Sort by album</string>
+    <string name="action_sort_genre">Sort by genre</string>
+
+    <string name="tab_artists">Artists</string>
+    <string name="tab_albums">Albums</string>
+    <string name="tab_folders">Folders</string>
+    <string name="tab_genres">Genres</string>
+    <string name="tab_favorites">Favorites</string>
+    <string name="tab_songs">Songs</string>
+
+    <string name="channel_id">StickySong</string>
+    <string name="channel_name">Current Song</string>
+    <string name="channel_description">Currently playing songs</string>
+    <string name="rec_song"></string>
+    <string name="error">Error</string>
+    <string name="warning">Warning</string>
+    <string name="now_playing">~NOW PLAYING~</string>
+    <string name="_88">88</string>
+    <string name="your_artist">Your Man</string>
+
+    <string name="add_playlist">Add Playlist</string>
+    <string name="add_songs">Add Songs</string>
+
+    <string name="themes">Themes</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="playback">Playback</string>
+    <string name="playback_volume">Volume</string>
+    <string name="visualizations">Visualizations</string>
+    <string name="visualization_type">Visualization Type</string>
+
+    <string name="shared_pref">SoundboxSettingsPreferences</string>
+    <string name="shared_pref_theme">isDarkTheme</string>
+    <string name="shared_pref_playback_volume">playbackVolume</string>
+    <string name="shared_pref_visualization_type">visualizationType</string>
+    <string name="shared_pref_sort_tracklist">sortTracklist</string>
+    <string name="shared_pref_sort_playlist">sortPlaylist</string>
+    <string name="shared_pref_sort_artists_tab">sortArtistsTab</string>
+    <string name="shared_pref_sort_albums_tab">sortAlbumsTab</string>
+    <string name="shared_pref_sort_genres_tab">sortGenresTab</string>
+    <string name="shared_pref_sort_folders_tab">sortFoldersTab</string>
+    <string name="shared_pref_sort_favorites_tab">sortFavoritesTab</string>
+</resources>

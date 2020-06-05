@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="themeColorPrimary" format="reference" />
+    <attr name="themeColorSecondary" format="reference" />
+    <attr name="themeColorPrimaryDark" format="reference" />
+    <attr name="themeColorAccent" format="reference" />
+    <attr name="themeWindowBackground" format="reference" />
+    <attr name="themeTextColor" format="reference" />
+    <attr name="themeTextColorPrimary" format="reference" />
+    <attr name="themeTextColorSecondary" format="reference" />
+    <attr name="themeTextColorHighlight" format="reference" />
+    <attr name="themeTextColorHint" format="reference" />
+    <attr name="themePopupBackground" format="reference" />
+
+    <declare-styleable name="SquareButton">
+        <attr name="squareScaleFit" format="float" />
+    </declare-styleable>
+
+</resources>

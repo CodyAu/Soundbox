@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">?themeColorPrimary</item>
+        <item name="colorSecondary">?themeColorSecondary</item>
+        <item name="colorPrimaryDark">?themeColorPrimaryDark</item>
+        <item name="colorAccent">?themeColorAccent</item>
+        <item name="android:windowBackground">?themeWindowBackground</item>
+        <item name="android:textColor">?themeTextColor</item>
+        <item name="android:textColorPrimary">?themeTextColorPrimary</item>
+        <item name="android:textColorSecondary">?themeTextColorSecondary</item>
+        <item name="android:textColorHighlight">?themeTextColorHighlight</item>
+        <item name="android:textColorHint">?themeTextColorHint</item>
+
+        <item name="popupMenuStyle">@style/AppTheme.PopupOverlay</item>
+        <item name="popupTheme">@style/AppTheme.PopupOverlay</item>
+        <item name="actionOverflowMenuStyle">@style/AppTheme.OverflowMenu</item>
+
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Dynamic Themes -->
+
+    <!-- Light theme -->
+    <style name="LightTheme" parent="AppTheme">
+        <item name="themeColorPrimary">@color/colorPrimaryLight</item>
+        <item name="themeColorSecondary">@color/colorSecondaryLight</item>
+        <item name="themeColorPrimaryDark">@color/colorPrimaryDarkLight</item>
+        <item name="themeColorAccent">@color/colorAccentLight</item>
+        <item name="themeWindowBackground">@color/windowBackgroundLight</item>
+        <item name="themeTextColor">@color/textColorPrimaryLight</item>
+        <item name="themeTextColorPrimary">@color/textColorPrimaryLight</item>
+        <item name="themeTextColorSecondary">@color/textColorSecondaryLight</item>
+        <item name="themeTextColorHighlight">@color/textColorHighlightLight</item>
+        <item name="themeTextColorHint">@color/textColorPrimaryLight</item>
+        <item name="themePopupBackground">@color/popupBackgroundLight</item>
+    </style>
+
+    <!-- Dark theme -->
+    <style name="DarkTheme" parent="AppTheme">
+        <item name="themeColorPrimary">@color/colorPrimaryDark</item>
+        <item name="themeColorSecondary">@color/colorSecondaryDark</item>
+        <item name="themeColorPrimaryDark">@color/colorPrimaryDarkDark</item>
+        <item name="themeColorAccent">@color/colorAccentDark</item>
+        <item name="themeWindowBackground">@color/windowBackgroundDark</item>
+        <item name="themeTextColor">@color/textColorPrimaryDark</item>
+        <item name="themeTextColorPrimary">@color/textColorPrimaryDark</item>
+        <item name="themeTextColorSecondary">@color/textColorSecondaryDark</item>
+        <item name="themeTextColorHighlight">@color/textColorHighlightDark</item>
+        <item name="themeTextColorHint">@color/textColorPrimaryDark</item>
+        <item name="themePopupBackground">@color/popupBackgroundDark</item>
+    </style>
+
+    <!-- End dynamic Themes -->
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColor">?themeTextColor</item>
+        <item name="android:textColorPrimary">?themeTextColorPrimary</item>
+        <item name="android:textColorSecondary">?themeTextColorSecondary</item>
+        <item name="android:textColorHighlight">?themeTextColorHighlight</item>
+        <item name="android:textColorHint">?themeTextColorHint</item>
+        <item name="popupMenuStyle">@style/AppTheme.PopupOverlay</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColor">?themeTextColor</item>
+        <item name="android:textColorPrimary">?themeTextColorPrimary</item>
+        <item name="android:textColorSecondary">?themeTextColorSecondary</item>
+        <item name="android:textColorHighlight">?themeTextColorHighlight</item>
+        <item name="android:textColorHint">?themeTextColorHint</item>
+
+        <item name="android:popupBackground">?themePopupBackground</item>
+        <item name="android:itemBackground">?themePopupBackground</item>
+    </style>
+
+    <style name="AppTheme.OverflowMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:textColor">?themeTextColor</item>
+        <item name="android:textColorPrimary">?themeTextColorPrimary</item>
+        <item name="android:textColorSecondary">?themeTextColorSecondary</item>
+        <item name="android:textColorHighlight">?themeTextColorHighlight</item>
+        <item name="android:textColorHint">?themeTextColorHint</item>
+
+        <item name="android:actionMenuTextColor">?themeTextColor</item>
+        <item name="android:itemBackground">?themePopupBackground</item>
+    </style>
+
+    <style name="MyButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/indigo</item>
+        <item name="colorButtonNormal">@color/pink</item>
+    </style>
+
+    <!-- Style to replace actionbar overflow icon. set item 'android:actionOverflowButtonStyle' in AppTheme -->
+    <style name="MyActionButtonOverflow" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_add_white_24dp</item>
+        <item name="android:background">?android:attr/actionBarItemBackground</item>
+        <item name="android:contentDescription">"Lala"</item>
+    </style>
+
+    <style name="AppTheme.AlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">?themeColorPrimary</item>
+        <item name="colorSecondary">?themeColorSecondary</item>
+        <item name="colorPrimaryDark">?themeColorPrimaryDark</item>
+        <item name="colorAccent">?themeColorAccent</item>
+        <item name="android:windowBackground">?themeWindowBackground</item>
+        <item name="android:textColor">?themeTextColor</item>
+        <item name="android:textColorPrimary">?themeTextColorPrimary</item>
+        <item name="android:textColorSecondary">?themeTextColorSecondary</item>
+        <item name="android:textColorHighlight">?themeTextColorHighlight</item>
+        <item name="android:textColorHint">?themeTextColorHint</item>
+        <item name="android:background">?themeWindowBackground</item>
+
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="AppTheme.FullScreenDialog" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="colorPrimary">?themeColorPrimary</item>
+        <item name="colorSecondary">?themeColorSecondary</item>
+        <item name="colorPrimaryDark">?themeColorPrimaryDark</item>
+        <item name="colorAccent">?themeColorAccent</item>
+        <item name="android:windowBackground">?themeWindowBackground</item>
+        <item name="android:textColor">?themeTextColor</item>
+        <item name="android:textColorPrimary">?themeTextColorPrimary</item>
+        <item name="android:textColorSecondary">?themeTextColorSecondary</item>
+        <item name="android:textColorHighlight">?themeTextColorHighlight</item>
+        <item name="android:textColorHint">?themeTextColorHint</item>
+        <item name="actionOverflowMenuStyle">@style/AppTheme.OverflowMenu</item>
+
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="AppTheme.Slide">
+        <item name="android:windowEnterAnimation">@animator/slide_up</item>
+        <item name="android:windowExitAnimation">@animator/slide_down</item>
+    </style>
+
+</resources>

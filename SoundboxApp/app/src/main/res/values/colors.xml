@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryLight">#fefefe</color>
+    <color name="colorSecondaryLight">#fcfcfc</color>
+    <color name="colorPrimaryDarkLight">#d1d5d8</color>
+    <color name="colorAccentLight">#D81B60</color>
+    <color name="windowBackgroundLight">#f1f5f8</color>
+    <color name="textColorPrimaryLight">#000000</color>
+    <color name="textColorSecondaryLight">#222222</color>
+    <color name="textColorHighlightLight">#2aefef</color>
+    <color name="popupBackgroundLight">#f1f5f8</color>
+
+    <color name="colorPrimaryDark">#202020</color>
+    <color name="colorSecondaryDark">#212121</color>
+    <color name="colorPrimaryDarkDark">#1C1C1C</color>
+    <color name="colorAccentDark">#D81B60</color>
+    <color name="windowBackgroundDark">#404043</color>
+    <color name="textColorPrimaryDark">#ffffff</color>
+    <color name="textColorSecondaryDark">#aaaaaa</color>
+    <color name="textColorHighlightDark">#2aefef</color>
+    <color name="popupBackgroundDark">#404043</color>
+
+    <!-- Bottom nav -->
+    <color name="colorBottomNavBackground">#202020</color>
+    <color name="colorBottomNavIcon">#999797</color>
+    <color name="colorBottomNavIconActive">#FFFFFF</color>
+
+    <!-- Playlist cards -->
+    <color name="default_gray">#4c4c4c</color>
+
+    <!-- Slider -->
+    <color name="seek_bar_background">#ff51495e</color>
+    <color name="seek_bar_progress">#ff996dfe</color>
+    <color name="seek_bar_secondary_progress">#ff51495e</color>
+
+    <color name="indigo">#17a2b8</color>
+    <color name="pink">#E40A5D</color>
+    <color name="white">#ffffff</color>
+    <color name="purple">#6200ee</color>
+</resources>

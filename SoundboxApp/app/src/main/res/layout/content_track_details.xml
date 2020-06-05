@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        style="@style/AppTheme.AppBarOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/AppTheme.PopupOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/themeColorPrimary"
+            android:paddingStart="6dp"
+            android:paddingEnd="16dp"
+            app:contentInsetStartWithNavigation="0dp"
+            app:navigationIcon="@drawable/ic_close_black_24dp" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:orientation="horizontal"
+                android:padding="15dp">
+
+                <View
+                    android:id="@+id/view5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5">
+
+                    <ImageView
+                        android:id="@+id/thumbnail"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:foregroundGravity="fill_horizontal"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/playlist1" />
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/view6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25" />
+
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:divider="@android:drawable/divider_horizontal_textfield"
+                        android:orientation="vertical"
+                        android:padding="15dp"
+                        android:showDividers="end">
+
+                        <TextView
+                            android:id="@+id/title_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="Title"
+                            android:textColor="?themeTextColorSecondary"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/title_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:textColor="?themeTextColorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:divider="@android:drawable/divider_horizontal_textfield"
+                        android:orientation="vertical"
+                        android:padding="15dp"
+                        android:showDividers="end">
+
+                        <TextView
+                            android:id="@+id/artist_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="Artist"
+                            android:textColor="?themeTextColorSecondary"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/artist_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:textColor="?themeTextColorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:divider="@android:drawable/divider_horizontal_textfield"
+                        android:orientation="vertical"
+                        android:padding="15dp"
+                        android:showDividers="end">
+
+                        <TextView
+                            android:id="@+id/album_artist_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="Album Artist"
+                            android:textColor="?themeTextColorSecondary"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/album_artist_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:textColor="?themeTextColorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:divider="@android:drawable/divider_horizontal_textfield"
+                        android:orientation="vertical"
+                        android:padding="15dp"
+                        android:showDividers="end">
+
+                        <TextView
+                            android:id="@+id/album_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="Album"
+                            android:textColor="?themeTextColorSecondary"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/album_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:textColor="?themeTextColorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:divider="@android:drawable/divider_horizontal_textfield"
+                        android:orientation="vertical"
+                        android:padding="15dp"
+                        android:showDividers="end">
+
+                        <TextView
+                            android:id="@+id/genre_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="Genre"
+                            android:textColor="?themeTextColorSecondary"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/genre_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:textColor="?themeTextColorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:divider="@android:drawable/divider_horizontal_textfield"
+                        android:orientation="vertical"
+                        android:padding="15dp"
+                        android:showDividers="end">
+
+                        <TextView
+                            android:id="@+id/length_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="Duration"
+                            android:textColor="?themeTextColorSecondary"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/length_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:textColor="?themeTextColorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:divider="@android:drawable/divider_horizontal_textfield"
+                        android:orientation="vertical"
+                        android:padding="15dp"
+                        android:showDividers="end">
+
+                        <TextView
+                            android:id="@+id/score_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="Score"
+                            android:textColor="?themeTextColorSecondary"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/score_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:textColor="?themeTextColorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:divider="@android:drawable/divider_horizontal_textfield"
+                        android:orientation="vertical"
+                        android:padding="15dp"
+                        android:showDividers="end">
+
+                        <TextView
+                            android:id="@+id/format_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="Format"
+                            android:textColor="?themeTextColorSecondary"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/format_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:textColor="?themeTextColorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:divider="@android:drawable/divider_horizontal_textfield"
+                        android:orientation="vertical"
+                        android:padding="15dp"
+                        android:showDividers="end">
+
+                        <TextView
+                            android:id="@+id/bitrate_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="Bitrate"
+                            android:textColor="?themeTextColorSecondary"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/bitrate_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:textColor="?themeTextColorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:divider="@android:drawable/divider_horizontal_textfield"
+                        android:orientation="vertical"
+                        android:padding="15dp"
+                        android:showDividers="end">
+
+                        <TextView
+                            android:id="@+id/bit_depth_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="Bit Depth"
+                            android:textColor="?themeTextColorSecondary"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/bit_depth_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:textColor="?themeTextColorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:divider="@android:drawable/divider_horizontal_textfield"
+                        android:orientation="vertical"
+                        android:padding="15dp"
+                        android:showDividers="end">
+
+                        <TextView
+                            android:id="@+id/sample_rate_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="Sample Rate"
+                            android:textColor="?themeTextColorSecondary"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/sample_rate_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:textColor="?themeTextColorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:divider="@android:drawable/divider_horizontal_textfield"
+                        android:orientation="vertical"
+                        android:padding="15dp"
+                        android:showDividers="end">
+
+                        <TextView
+                            android:id="@+id/size_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="File Size"
+                            android:textColor="?themeTextColorSecondary"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/size_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:textColor="?themeTextColorPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:divider="@android:drawable/divider_horizontal_textfield"
+                        android:orientation="vertical"
+                        android:padding="15dp"
+                        android:showDividers="end">
+
+                        <TextView
+                            android:id="@+id/filepath_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="Filepath"
+                            android:textColor="?themeTextColorSecondary"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/filepath_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:textColor="?themeTextColorPrimary" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,32 @@
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Log Files
+*.log
+
+# Gradle files
+SoundboxApp/.gradle/
+SoundboxApp/app/gradle # Only need top level gradle/wrapper
+
+# Local configuration file (sdk path, etc)
+SoundboxApp/local.properties
+
+# Android Studio Navigation editor temp files
+SoundboxApp/.navigation/
+
+# IntelliJ
+*.iml
+SoundboxApp/.idea/
+SoundboxApp/app/.idea/
+
+# Generated files
+SoundboxApp/app/build/
+
